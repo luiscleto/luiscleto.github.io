@@ -1,15 +1,15 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
+    school: 'Faculty of Engineering of the University of Porto',
+    degree: 'M.Sc. Informatics and Computer Engineering',
+    link: 'https://sigarra.up.pt/feup/pt/web_page.inicial',
     year: 2016,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Quantic School of Business and Technology',
+    degree: 'Master of Business Administration',
+    link: 'https://quantic.edu/',
+    year: 2021,
   },
 ];
 
