@@ -9,7 +9,7 @@ const Analytics = () => {
   if (NODE_ENV === 'production') {
     return (
       <span>
-        <script>{`window.goatcounter = { path: ${pathname} || '/' }`}</script>
+        <script>{`window.goatcounter = { path: '${pathname}' || '/' }`}</script>
         <script
           data-goatcounter="https://ksdbfg234jl342lk636l33sd.goatcounter.com/count"
           async
