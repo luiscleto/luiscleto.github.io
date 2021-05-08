@@ -1,8 +1,7 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import ReactGA from 'react-ga';
 
-const { NODE_ENV, REACT_APP_GA_TRACKING_ID } = process.env;
+const { NODE_ENV } = process.env;
 
 if (NODE_ENV === 'production') {
   ReactGA.initialize(REACT_APP_GA_TRACKING_ID);
@@ -13,10 +12,8 @@ const Analytics = () => {
 
   useEffect(() => {
     if (NODE_ENV === 'production') {
-      ReactGA.set({
-        page: pathname,
-      });
-      ReactGA.pageview(pathname);
+      return `<script data-goatcounter="https://${pathname}.goatcounter.com/count"
+              async src="//gc.zgo.at/count.js"/>`
     }
   }, [pathname]);
 
