@@ -19,8 +19,8 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Luis. This website is currently under construction. For now, I was lazy and just copied over a
-          template. Maybe I'll work on this again in the future.
+      <p>Hi, I&apos;m Luis. This website is currently under construction. For now, I was lazy and
+        just copied over a template. Maybe I&apos;ll work on this again in the future.
       </p>
       <ul className="actions">
         <li>
