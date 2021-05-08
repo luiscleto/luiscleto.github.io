@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: cleto.dev
+Token: 3eaba85e22ed1c4d376c19377b6f48f8fe5fef70ab7e4421419626c9b3cd4f3b
