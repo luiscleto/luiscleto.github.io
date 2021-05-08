@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
 jobs:
-  depoy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -27,5 +27,5 @@ jobs:
       run: | 
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/mldangelo/personal-site.git
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/luiscleto/luiscleto.github.io.git
           npm run deploy
