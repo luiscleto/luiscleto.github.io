@@ -29,7 +29,7 @@ const data = [
     icon: faInstagram,
   },
   {
-    link: 'https://twitter.com/MisterCacau',
+    link: 'https://twitter.com/luisccleto',
     label: 'Twitter',
     icon: faTwitter,
   },
