@@ -27,7 +27,7 @@ const data = [
   {
     key: 'location',
     label: 'Current city',
-    value: 'Lausanne, Switzerland',
+    value: 'Warsaw, Poland',
   },
 ];
 
