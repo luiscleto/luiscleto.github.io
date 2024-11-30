@@ -73,10 +73,16 @@
   margin-top: 1rem;
 }
 
+.social-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .contact a {
   display: inline-block;
   padding: 0.8rem 1.5rem;
-  background: #0077b5;
   color: white;
   border-radius: 6px;
   text-decoration: none;
@@ -84,7 +90,22 @@
   font-weight: 500;
 }
 
-.contact a:hover {
+.contact a:first-child {
+  background: #0077b5; /* LinkedIn blue */
+}
+
+.contact a:first-child:hover {
   background: #0091dd;
+}
+
+.contact a:last-child {
+  background: #333; /* GitHub dark */
+}
+
+.contact a:last-child:hover {
+  background: #444;
+}
+
+.contact a:hover {
   transform: translateY(-1px);
 }

@@ -25,9 +25,14 @@ function App() {
         </section>
 
         <section className="contact">
-          <a href="https://linkedin.com/in/luiscleto" target="_blank" rel="noopener noreferrer">
-            Connect on LinkedIn
-          </a>
+          <div className="social-links">
+            <a href="https://linkedin.com/in/luiscleto" target="_blank" rel="noopener noreferrer">
+              Connect on LinkedIn
+            </a>
+            <a href="https://github.com/luiscleto" target="_blank" rel="noopener noreferrer">
+              View GitHub
+            </a>
+          </div>
         </section>
       </main>
       <Analytics />
