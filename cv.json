@@ -1,0 +1,177 @@
+{
+  "basics": {
+    "name": "Luís Cleto",
+    "label": "Software Engineer",
+    "email": "luis@cleto.dev",
+    "phone": "+351 966 417 452",
+    "website": "cleto.dev",
+    "location": {
+      "city": "Porto",
+      "country": "Portugal"
+    },
+    "linkedin": "linkedin.com/in/luiscleto"
+  },
+  "summary": "Backend engineer with 8 years in software development, specializing in distributed systems in Go. Extensive experience in FinTech. Strong track record of technical leadership and building scalable backend systems.",
+  "keySkills": [
+    "Go",
+    "SQL",
+    "Git",
+    "gRPC",
+    "Kafka",
+    "Terraform",
+    "AWS",
+    "Java",
+    "JavaScript",
+    "TypeScript"
+  ],
+  "work": [
+    {
+      "company": "NALA",
+      "position": "Lead Backend Engineer",
+      "startDate": "2023-06",
+      "endDate": "Present",
+      "location": "Remote",
+      "summary": [
+        "On top of previous responsibilities, took on managing more cross-team initiatives.",
+        "Coordinated with CTO and team leads to align on engineering strategy."
+      ],
+      "technologies": ["Go", "gRPC", "Kafka", "PostgreSQL", "AWS", "Terraform", "Docker"]
+    },
+    {
+      "company": "NALA",
+      "position": "Senior Software Engineer",
+      "startDate": "2022-04",
+      "endDate": "2023-06",
+      "location": "Remote",
+      "summary": [
+        "Joined fast-paced senior engineering team at fintech startup building financial infrastructure for Africa.",
+        "Owned and delivered multiple projects like launching in Europe and Euro support, adding withdrawal capabilities, automating certain rate calculations, and others.",
+        "Worked on infrastructure changes to improve our system or support new features.",
+        "Improved documentation and did several presentations to the wider team and company."
+      ],
+      "technologies": ["Go", "gRPC", "Kafka", "PostgreSQL", "AWS", "Terraform", "Docker"]
+    },
+    {
+      "company": "Faculty of Engineering, University of Porto",
+      "position": "Teaching Assistant",
+      "startDate": "2022-09",
+      "endDate": "2023-02",
+      "location": "Porto (Portugal)",
+      "summary": [
+        "Graduate TA for Computer Graphics and Web Development courses.",
+        "Taught for one semester only as I transitioned to focus on full-time work and family after the birth of my first child."
+      ],
+      "technologies": ["JavaScript", "PHP", "Docker", "PostgreSQL", "OpenGL", "Laravel"]
+    },
+    {
+      "company": "Taurus SA",
+      "position": "Senior Software Engineer",
+      "startDate": "2021-03",
+      "endDate": "2022-04",
+      "location": "Lausanne (Switzerland) and Warsaw (Poland)",
+      "summary": [
+        "Quickly mastered stack and the required blockchain technology and was appointed as team lead of the core team within three months.",
+        "Key projects included matching and verifying customer deposits on our exchange and several performance improvements to our custody product API.",
+        "Established processes for scaling growing teams."
+      ],
+      "technologies": ["Go", "gRPC", "Kafka", "CockroachDB", "Kubernetes", "Docker", "Blockchain"]
+    },
+    {
+      "company": "Google",
+      "position": "Software Engineer",
+      "startDate": "2019-01",
+      "endDate": "2021-02",
+      "location": "Dublin (Ireland)",
+      "summary": [
+        "Worked with advanced tech stack and brilliant team developed internal abuse fighting tools and language",
+        "Added several new features to our development UI and built a Language Server Protocol integration for full support in Google's internal code editors.",
+        "Worked on improving team documentations and gave presentations to the wider team on work done."
+      ],
+      "technologies": ["Go", "Java", "gRPC", "Spanner", "ANTLR", "LSP", "JavaScript", "TypeScript"]
+    },
+    {
+      "company": "Goldman Sachs",
+      "position": "Analyst",
+      "startDate": "2018-06",
+      "endDate": "2019-01",
+      "location": "London (United Kingdom)",
+      "summary": [
+        "Worked in prime brokerage division mainly focused on modernizing legacy systems using dropwizard microservices.",
+        "Gained knowledge in economics and trading and developed both technical and soft skills."
+      ],
+      "technologies": ["Java", "Dropwizard"]
+    },
+    {
+      "company": "Feedzai",
+      "position": "Software Engineer",
+      "startDate": "2017-01",
+      "endDate": "2018-04",
+      "location": "Porto (Portugal)",
+      "summary": [
+        "Back-end engineer for fraud detection software.",
+        "Added support for running on Microsoft Azure, worked on storage optimizations and debugged complex production issues.",
+        "Learned a lot about JVM internals for performance-critical applications using Azul."
+      ],
+      "technologies": ["Java", "RabbitMQ", "Hadoop", "Spark", "PostgreSQL"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Quantic School of Business and Technology",
+      "area": "Business Administration",
+      "studyType": "Masters",
+      "startDate": "2020",
+      "endDate": "2021",
+      "summary": [
+        "Pursued MBA for personal and professional growth",
+        "Focused on business and economics fundamentals"
+      ]
+    },
+    {
+      "institution": "University of Porto",
+      "area": "Informatics and Computer Engineering",
+      "studyType": "Masters",
+      "startDate": "2011",
+      "endDate": "2016",
+      "summary": [
+        "Final grade: 18/20 (Grade A on European scale)"
+      ]
+    },
+    {
+      "institution": "Delft University of Technology",
+      "area": "Computer Science",
+      "studyType": "Erasmus Semester",
+      "startDate": "2015-09",
+      "endDate": "2016-01",
+      "summary": [
+        "Exchange semester during Master's program"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Grupo de Ação Social do Porto",
+      "position": "Volunteer",
+      "startDate": "2014-11",
+      "endDate": "2018-05",
+      "location": "Porto (Portugal)",
+      "summary": [
+        "Weekly work with people with mental disabilities",
+        "Organized fund-raising events",
+        "Participated in various community activities"
+      ]
+    },
+    {
+      "organization": "Instituto Sekular Maun Allin iha Kristu",
+      "position": "Volunteer",
+      "startDate": "2016-07",
+      "endDate": "2016-12",
+      "location": "East Timor",
+      "summary": [
+        "Volunteered in East Timor with G.A.S. Porto",
+        "Collaborated with local organization IS-MAIK",
+        "Developed education and health programs for local communities"
+      ]
+    }
+  ]
+} 

@@ -1,0 +1,66 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero {
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.hero h2 {
+  margin: 0.5rem 0;
+  font-weight: normal;
+  color: #666;
+}
+
+.hero p {
+  margin: 1.5rem 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.skills {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.skill-tag {
+  background: #f0f0f0;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.contact {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.contact a {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #0077b5;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.contact a:hover {
+  background: #005885;
+}
