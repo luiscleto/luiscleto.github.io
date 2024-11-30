@@ -18,7 +18,7 @@ function App() {
         <section className="skills">
           <h3>Key Technologies</h3>
           <div className="skill-tags">
-            {["Go", "SQL", "gRPC", "Kafka", "AWS", "Java", "Terraform", "Distributed Systems", "AWS"].map((skill) => (
+            {["Go", "SQL", "gRPC", "Kafka", "AWS", "Java", "Terraform", "Distributed Systems"].map((skill) => (
               <span key={skill} className="skill-tag">{skill}</span>
             ))}
           </div>
@@ -34,8 +34,8 @@ function App() {
             </a>
           </div>
         </section>
+        <Analytics />
       </main>
-      <Analytics />
     </BrowserRouter>
   )
 }
