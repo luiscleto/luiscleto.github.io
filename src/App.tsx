@@ -9,7 +9,10 @@ function App() {
         <section className="hero">
           <h1>Luís Cleto</h1>
           <h2>Software Engineer</h2>
-          <p>Backend engineer specializing in distributed systems in Go, with experience at Google and FinTech startups.</p>
+          <p>
+            Lead backend engineer with 8 years of experience specializing in distributed systems in Go.
+            Worked across a range of companies, from Google to startups.
+          </p>
         </section>
 
         <section className="skills">
