@@ -33,6 +33,9 @@ function App() {
             <a href="https://github.com/luiscleto" target="_blank" rel="noopener noreferrer">
               View GitHub
             </a>
+            <a href="https://elaronworks.com" target="_blank" rel="noopener noreferrer">
+              Consulting via ElaronWorks
+            </a>
           </div>
         </section>
         <Analytics />
