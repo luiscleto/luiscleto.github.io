@@ -10,15 +10,16 @@ function App() {
           <h1>Luís Cleto</h1>
           <h2>Software Engineer</h2>
           <p>
-            Backend engineer with 8 years of experience building scalable distributed systems.
-            Currently a Lead Backend Engineer at a fintech startup, previously worked at Google, other startups and larger companies.
+            Backend engineer with 10 years of experience building scalable distributed systems.
+            Currently a Senior Backend Engineer at Mozn and founder of ElaronWorks, where I do consulting, product exploration, and AI integration work.
+            Previously worked at Google, startups, and larger companies.
           </p>
         </section>
 
         <section className="skills">
           <h3>Key Technologies</h3>
           <div className="skill-tags">
-            {["Go", "SQL", "gRPC", "Kafka", "AWS", "Terraform", "Grafana", "Java"].map((skill) => (
+            {["Go", "SQL", "gRPC", "Kafka", "Kubernetes", "AWS", "Terraform", "TypeScript", "AI APIs"].map((skill) => (
               <span key={skill} className="skill-tag">{skill}</span>
             ))}
           </div>
