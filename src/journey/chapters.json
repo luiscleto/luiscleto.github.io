@@ -25,7 +25,8 @@
         "paragraphs": [
           "While studying, I also helped teach computer laboratory and computer graphics classes over several semesters."
         ],
-        "tags": []
+        "tags": [],
+        "preview": "Teaching · computer laboratory and computer graphics"
       },
       {
         "title": "Grupo de Ação Social do Porto",
@@ -36,9 +37,15 @@
           "Organized fund-raising events",
           "Participated in various community activities"
         ],
-        "tags": []
+        "tags": [],
+        "preview": "Volunteering · local community work"
       }
-    ]
+    ],
+    "skills": [
+      "Computer science",
+      "Computer graphics"
+    ],
+    "skillsLabel": "Focus"
   },
   {
     "id": "delft",
@@ -58,7 +65,11 @@
         ],
         "tags": []
       }
-    ]
+    ],
+    "skills": [
+      "Computer science"
+    ],
+    "skillsLabel": "Focus"
   },
   {
     "id": "timor",
@@ -79,9 +90,16 @@
           "Mostly in Loes and Aileu, with some brief stays near Dili.",
           "Teaching Math and IT to children and training local teachers in Microsoft Excel."
         ],
-        "tags": []
+        "tags": [],
+        "preview": "Volunteering · Math, IT and teacher training"
       }
-    ]
+    ],
+    "skills": [
+      "Teaching",
+      "IT classes",
+      "Excel"
+    ],
+    "skillsLabel": "Focus"
   },
   {
     "id": "first-job",
@@ -108,9 +126,16 @@
           "Hadoop",
           "Spark",
           "PostgreSQL"
-        ]
+        ],
+        "preview": "Backend engineering · fraud detection and core platform"
       }
-    ]
+    ],
+    "skills": [
+      "Java",
+      "Backend systems",
+      "Performance"
+    ],
+    "skillsLabel": "Working with"
   },
   {
     "id": "london",
@@ -132,9 +157,16 @@
         "tags": [
           "Java",
           "Dropwizard"
-        ]
+        ],
+        "preview": "Engineering · modernizing prime brokerage systems"
       }
-    ]
+    ],
+    "skills": [
+      "Java",
+      "Microservices",
+      "Financial systems"
+    ],
+    "skillsLabel": "Working with"
   },
   {
     "id": "dublin",
@@ -165,7 +197,8 @@
           "LSP",
           "JavaScript",
           "TypeScript"
-        ]
+        ],
+        "preview": "Software engineering · abuse-fighting and developer tools"
       },
       {
         "title": "Quantic School of Business and Technology",
@@ -178,7 +211,16 @@
         "tags": []
       }
     ],
-    "aside": "After being promoted to L4... I decided to try the startup world for learning and personal growth."
+    "aside": "After being promoted to L4... I decided to try the startup world for learning and personal growth.",
+    "skills": [
+      "Go",
+      "Java",
+      "TypeScript",
+      "JavaScript",
+      "Compilers",
+      "gRPC"
+    ],
+    "skillsLabel": "Working with"
   },
   {
     "id": "lausanne",
@@ -207,9 +249,17 @@
           "Kubernetes",
           "Docker",
           "Blockchain"
-        ]
+        ],
+        "preview": "Senior engineer / team lead · crypto custody and exchanges"
       }
-    ]
+    ],
+    "skills": [
+      "Go",
+      "gRPC",
+      "Blockchain",
+      "Performance"
+    ],
+    "skillsLabel": "Working with"
   },
   {
     "id": "warsaw",
@@ -239,7 +289,8 @@
           "Kubernetes",
           "Docker",
           "Blockchain"
-        ]
+        ],
+        "preview": "Senior engineer / team lead · crypto custody and exchanges"
       },
       {
         "title": "NALA",
@@ -260,9 +311,17 @@
           "Terraform",
           "Docker",
           "Grafana"
-        ]
+        ],
+        "preview": "Backend engineering · financial infrastructure for Africa"
       }
-    ]
+    ],
+    "skills": [
+      "Go",
+      "gRPC",
+      "Terraform",
+      "Financial infrastructure"
+    ],
+    "skillsLabel": "Working with"
   },
   {
     "id": "home",
@@ -288,7 +347,8 @@
           "Kubernetes",
           "Docker",
           "PostgreSQL"
-        ]
+        ],
+        "preview": "Senior backend engineer · financial crime screening"
       },
       {
         "title": "NALA",
@@ -307,7 +367,8 @@
           "Terraform",
           "Docker",
           "Grafana"
-        ]
+        ],
+        "preview": "Lead backend engineer · financial infrastructure for Africa"
       },
       {
         "title": "Faculty of Engineering, University of Porto",
@@ -324,7 +385,8 @@
           "PostgreSQL",
           "OpenGL",
           "Laravel"
-        ]
+        ],
+        "preview": "Teaching · computer graphics and web development"
       },
       {
         "title": "ElaronWorks",
@@ -351,7 +413,8 @@
             "label": "ElaronWorks",
             "url": "https://elaronworks.com"
           }
-        ]
+        ],
+        "preview": "Founder · agentic coding and AI-enabled apps"
       },
       {
         "title": "GitHub",
@@ -361,6 +424,15 @@
         "tags": [],
         "href": "https://github.com/luiscleto"
       }
-    ]
+    ],
+    "skills": [
+      "Go",
+      "Python",
+      "Kubernetes",
+      "Distributed systems",
+      "Agentic coding",
+      "AI apps"
+    ],
+    "skillsLabel": "Working with"
   }
 ]

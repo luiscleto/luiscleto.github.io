@@ -2,6 +2,7 @@ import { lazy, Suspense, useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import chapters from './chapters.json'
 import './journey.css'
+import ContactCard from './ContactCard'
 
 const World = lazy(() => import('./World'))
 type Card = { title: string; subtitle: string; period: string; paragraphs: string[]; tags: string[]; href?: string; links?: { label: string; url: string }[] }
@@ -79,7 +80,7 @@ export default function Journey() {
     if (!section) return
     const top = asReading ? section.offsetTop - 70 : window.innerWidth <= 600
       ? section.offsetTop
-      : section.offsetTop + section.offsetHeight / 2 - window.innerHeight / 2
+      : Math.min(section.offsetTop + section.offsetHeight / 2 - window.innerHeight / 2, (section.querySelector('.chapter-content')?.getBoundingClientRect().top ?? 112) + window.scrollY - 112)
     window.scrollTo({ top: Math.max(0, top), behavior })
   }
   const jump = (i: number) => scrollToChapter(i, reading, reduced ? 'instant' : 'smooth')
@@ -110,19 +111,25 @@ export default function Journey() {
         <World active={active} progress={progress} reduced={reduced} onOpen={index => open(chapters[active].cards[index])} />
       </Suspense>
       <div className="scene-caption"><span className="compass" aria-hidden="true">✳</span><div><span className="scene-place">{chapters[active].place}</span><span className="scene-hint">A place in the story · select + to explore</span></div></div>
+      <ContactCard prominent={active === chapters.length - 1} />
     </aside>}
 
     <main id="journey-chapters" className="journey-chapters">
       {chapters.map((chapter, index) => <section id={chapter.id} key={chapter.id} ref={element => { sections.current[index] = element }} className={`journey-chapter ${index === active ? 'is-active' : ''}`} aria-labelledby={`${chapter.id}-title`}>
         <div className="chapter-content">
+          {reading && chapter.id === 'home' && <ContactCard prominent />}
           <div className="chapter-eyebrow"><span>{String(index + 1).padStart(2, '0')} / 09</span><span>{chapter.period}</span></div>
           {index === 0 ? <h1 id={`${chapter.id}-title`}>{chapter.title}<span className="title-dot">.</span></h1> : <h2 id={`${chapter.id}-title`}>{chapter.title}<span className="title-dot">.</span></h2>}
           <p className="chapter-text">{chapter.text}</p>
           {'aside' in chapter && chapter.aside && <p className="chapter-aside">{chapter.aside}</p>}
+          <div className="chapter-skills">
+            <span className="skills-label" id={`${chapter.id}-skills`}>{chapter.skillsLabel}</span>
+            <ul aria-labelledby={`${chapter.id}-skills`}>{chapter.skills.map(skill => <li key={skill}>{skill}</li>)}</ul>
+          </div>
           <div className="chapter-projects">
-            {chapter.cards.map((card, i) => 'href' in card && card.href ? <a key={card.title} className="project-link" href={card.href} target="_blank" rel="noopener noreferrer"><span className="project-icon" aria-hidden="true">↗</span><span><strong>{card.title}</strong><small>{card.subtitle}</small></span><span className="project-arrow" aria-hidden="true">↗</span></a> : <button key={`${card.title}-${i}`} className="project-link" onClick={() => open(card)}>
+            {chapter.cards.map((card, i) => 'href' in card && card.href ? <a key={card.title} className="project-link" href={card.href} target="_blank" rel="noopener noreferrer"><span className="project-icon" aria-hidden="true">↗</span><span><strong>{card.title}</strong><small>{'preview' in card ? card.preview : card.subtitle}</small></span><span className="project-arrow" aria-hidden="true">↗</span></a> : <button key={`${card.title}-${i}`} className="project-link" onClick={() => open(card)}>
               <span className="project-icon" aria-hidden="true">{chapter.id === 'timor' ? '↗' : '+'}</span>
-              <span><strong>{card.title === 'Faculty of Engineering, University of Porto' ? 'Back at FEUP · Teaching' : card.title === 'University of Porto' ? 'FEUP' : card.title}</strong><small>{card.subtitle}</small></span><span className="project-arrow" aria-hidden="true">↗</span>
+              <span><strong>{card.title === 'Faculty of Engineering, University of Porto' ? 'Back at FEUP · Teaching' : card.title === 'University of Porto' ? 'FEUP' : card.title}</strong><small>{'preview' in card ? card.preview : card.subtitle}</small></span><span className="project-arrow" aria-hidden="true">↗</span>
             </button>)}
           </div>
           {chapter.note && <div className="personal-note"><span className="note-spark" aria-hidden="true">✳</span><div><span className="note-label">Along the way</span><p>{chapter.note}</p></div></div>}

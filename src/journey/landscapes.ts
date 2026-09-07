@@ -103,9 +103,13 @@ export function makeIsland(kind: string, index: number) {
   if (kind === 'porto' || kind === 'home') {
     // Ribeira terraces, the Douro and the double-deck iron arch of Dom Luís I.
     river(0.9, 2.1)
-    box(-0.3, 0.34, -1.4, 8.1, 0.6, 2.1, '#67665c')
+    box(-0.3, 0.34, -1.4, 9.4, 0.6, 2.1, '#67665c')
     box(-1, 0.65, -2.6, 5.8, 1.1, 1.1, '#67665c')
-    for (let i = 0; i < 8; i++) house(-3.45 + i * 0.85, -0.9, 1.05 + i % 3 * 0.28, ['#c19874', '#8faaa7', '#c5b889', '#b67e65'][i % 4], 0.69, 0.65)
+    for (let i = 0; i < 8; i++) {
+      // Leave a clear corridor around the bridge deck, including the roof overhangs.
+      const x = i >= 6 ? 3.1 + (i - 6) * 0.85 : -3.45 + i * 0.85
+      house(x, -0.9, 1.05 + i % 3 * 0.28, ['#c19874', '#8faaa7', '#c5b889', '#b67e65'][i % 4], 0.69, 0.65)
+    }
     for (let i = 0; i < 4; i++) house(-2.8 + i * 0.9, -2.5, 1.1, '#a4a296', 0.72, 1.2)
     tower(-2.15, -2.6, 2.5, '#c3b392', 1.2, false)
     // Baroque upper tiers distinguish Clérigos from a generic spire.
