@@ -1,0 +1,366 @@
+[
+  {
+    "id": "origins",
+    "place": "Porto",
+    "country": "Portugal",
+    "period": "Growing up · 2011–2016",
+    "title": "grew up in Porto",
+    "text": "I always had a passion for tech and a talent for sciences, so I chose to pursue informatics and computer engineering at University of Porto. While studying, I also helped teach computer laboratory and computer graphics classes over several semesters.",
+    "note": "Most of my free time went into local volunteering with G.A.S.Porto. Also guitar and the camino de santiago.",
+    "kind": "porto",
+    "cards": [
+      {
+        "title": "University of Porto",
+        "subtitle": "Masters · Informatics and Computer Engineering",
+        "period": "2011 — 2016",
+        "paragraphs": [
+          "Final grade: 18/20 (Grade A on European scale)"
+        ],
+        "tags": []
+      },
+      {
+        "title": "FEUP · Undergraduate teaching",
+        "subtitle": "Undergraduate teaching assistant",
+        "period": "Several semesters during university",
+        "paragraphs": [
+          "While studying, I also helped teach computer laboratory and computer graphics classes over several semesters."
+        ],
+        "tags": []
+      },
+      {
+        "title": "Grupo de Ação Social do Porto",
+        "subtitle": "Volunteer",
+        "period": "2014-11 — 2018-05",
+        "paragraphs": [
+          "Weekly work with people with mental disabilities",
+          "Organized fund-raising events",
+          "Participated in various community activities"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  {
+    "id": "delft",
+    "place": "Delft",
+    "country": "The Netherlands",
+    "period": "2015–2016",
+    "title": "Erasmus in the netherlands",
+    "text": "I went to Delft for an Erasmus semester during my master's. It was my first time traveling internationally, and I tried to see as much of Europe as I could while there.",
+    "kind": "delft",
+    "cards": [
+      {
+        "title": "Delft University of Technology",
+        "subtitle": "Erasmus Semester · Computer Science",
+        "period": "2015-09 — 2016-01",
+        "paragraphs": [
+          "Exchange semester during Master's program"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  {
+    "id": "timor",
+    "place": "Dili, Loes, Aileu",
+    "country": "East Timor",
+    "period": "July–December 2016",
+    "title": "volunteering in East Timor after uni",
+    "text": "After uni, I spent six months volunteering in East Timor with G.A.S.Porto and Christian organization IS-MAIK. I was mostly in Loes and Aileu, with some brief stays near Dili, teaching Math and IT to children and training local teachers in Microsoft Excel.",
+    "kind": "timor",
+    "cards": [
+      {
+        "title": "Instituto Sekular Maun Allin iha Kristu",
+        "subtitle": "Volunteer",
+        "period": "2016-07 — 2016-12",
+        "paragraphs": [
+          "Volunteered in East Timor with G.A.S. Porto",
+          "Collaborated with local Christian organization IS-MAIK",
+          "Mostly in Loes and Aileu, with some brief stays near Dili.",
+          "Teaching Math and IT to children and training local teachers in Microsoft Excel."
+        ],
+        "tags": []
+      }
+    ]
+  },
+  {
+    "id": "first-job",
+    "place": "Lisbon / Porto",
+    "country": "Portugal",
+    "period": "2017–2018",
+    "title": "first job",
+    "text": "First full-time industry role as back-end engineer on fraud detection software. I joined the core platform team and worked with great colleagues and a brilliant manager who helped shape me as a proper software developer.",
+    "kind": "porto",
+    "cards": [
+      {
+        "title": "Feedzai",
+        "subtitle": "Software Engineer",
+        "period": "2017-01 — 2018-04",
+        "paragraphs": [
+          "First full-time industry role as back-end engineer on fraud detection software.",
+          "I joined the core platform team and worked with great colleagues and a brilliant manager who helped shape me as a proper software developer.",
+          "Added support for running on Microsoft Azure, worked on storage space optimizations for large-scale event storage, and debugged complex production issues.",
+          "Learned a lot about JVM internals for performance-critical applications using Azul."
+        ],
+        "tags": [
+          "Java",
+          "RabbitMQ",
+          "Hadoop",
+          "Spark",
+          "PostgreSQL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "london",
+    "place": "London",
+    "country": "United Kingdom",
+    "period": "2018–2019",
+    "title": "London",
+    "text": "I moved abroad for work, joining Goldman Sachs's prime brokerage division in London. I worked on modernizing legacy systems and learned a lot about economics and trading along the way.",
+    "kind": "london",
+    "cards": [
+      {
+        "title": "Goldman Sachs",
+        "subtitle": "Analyst",
+        "period": "2018-06 — 2019-01",
+        "paragraphs": [
+          "Worked in prime brokerage division mainly focused on modernizing legacy systems using dropwizard microservices.",
+          "Gained knowledge in economics and trading and developed both technical and soft skills."
+        ],
+        "tags": [
+          "Java",
+          "Dropwizard"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dublin",
+    "place": "Dublin",
+    "country": "Ireland",
+    "period": "2019–2021",
+    "title": "Dublin",
+    "text": "Next was Dublin, where I joined Google. I worked on internal abuse-fighting tools and the language and developer tooling behind them, including autocomplete and integration with Google's code editors.",
+    "note": "hiking and martial arts in Dublin",
+    "kind": "dublin",
+    "cards": [
+      {
+        "title": "Google",
+        "subtitle": "Software Engineer",
+        "period": "2019-01 — 2021-02",
+        "paragraphs": [
+          "Worked with advanced tech stack and brilliant team developing internal abuse fighting tools and language",
+          "Added advanced autocomplete and development assistance features to our development UI using ANTLR to TypeScript.",
+          "Built a Language Server Protocol integration for full support in Google's internal code editors.",
+          "Worked on improving team documentation and gave presentations to the wider team on work done."
+        ],
+        "tags": [
+          "Go",
+          "Java",
+          "gRPC",
+          "Spanner",
+          "ANTLR",
+          "LSP",
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "title": "Quantic School of Business and Technology",
+        "subtitle": "Masters · Business Administration",
+        "period": "2020 — 2021",
+        "paragraphs": [
+          "Pursued MBA for personal and professional growth",
+          "Focused on business and economics fundamentals"
+        ],
+        "tags": []
+      }
+    ],
+    "aside": "After being promoted to L4... I decided to try the startup world for learning and personal growth."
+  },
+  {
+    "id": "lausanne",
+    "place": "Lausanne",
+    "country": "Switzerland",
+    "period": "2021–2022 · Taurus",
+    "title": "Lausanne",
+    "text": "I wanted to learn about and work in the crypto sector, so I joined Taurus in Lausanne. Within a few months I was leading the core team, working on custody and exchange systems.",
+    "kind": "lausanne",
+    "cards": [
+      {
+        "title": "Taurus SA",
+        "subtitle": "Senior Software Engineer",
+        "period": "2021-03 — 2022-04",
+        "paragraphs": [
+          "Quickly mastered stack and the required blockchain technology and was appointed as team lead of the core team within three months.",
+          "Key projects included matching and verifying customer deposits on the Taurus exchange Product.",
+          "Extensive profiling, mostly via pprof, and significant performance improvements to our custody product API.",
+          "Established processes for scaling growing teams."
+        ],
+        "tags": [
+          "Go",
+          "gRPC",
+          "Kafka",
+          "CockroachDB",
+          "Kubernetes",
+          "Docker",
+          "Blockchain"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "warsaw",
+    "place": "Warsaw",
+    "country": "Poland",
+    "period": "2021–2022 · Taurus → NALA",
+    "title": "Warsaw",
+    "text": "I moved back to Poland for family and stayed at Taurus remotely. Eventually I moved on to another remote job at NALA, building financial infrastructure for Africa.",
+    "note": "got married in poland (sopot)",
+    "kind": "warsaw",
+    "cards": [
+      {
+        "title": "Taurus SA",
+        "subtitle": "Senior Software Engineer",
+        "period": "2021-03 — 2022-04",
+        "paragraphs": [
+          "Quickly mastered stack and the required blockchain technology and was appointed as team lead of the core team within three months.",
+          "Key projects included matching and verifying customer deposits on the Taurus exchange Product.",
+          "Extensive profiling, mostly via pprof, and significant performance improvements to our custody product API.",
+          "Established processes for scaling growing teams."
+        ],
+        "tags": [
+          "Go",
+          "gRPC",
+          "Kafka",
+          "CockroachDB",
+          "Kubernetes",
+          "Docker",
+          "Blockchain"
+        ]
+      },
+      {
+        "title": "NALA",
+        "subtitle": "Senior Software Engineer",
+        "period": "2022-04 — 2023-06",
+        "paragraphs": [
+          "Joined fast-paced senior engineering team at fintech startup building financial infrastructure for Africa.",
+          "Owned and delivered multiple projects like launching in Europe and Euro support, adding withdrawal capabilities, automating certain rate calculations, and others.",
+          "Worked on infrastructure changes to improve our system or support new features.",
+          "Improved documentation and did several presentations to the wider team and company."
+        ],
+        "tags": [
+          "Go",
+          "gRPC",
+          "Kafka",
+          "PostgreSQL",
+          "AWS",
+          "Terraform",
+          "Docker",
+          "Grafana"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "home",
+    "place": "Porto",
+    "country": "Portugal",
+    "period": "2022 onwards",
+    "title": "finally back to Porto",
+    "text": "We decided to move to Porto to start a family. I worked at NALA for several years, then moved to Mozn, where I am today. Alongside that, I started ElaronWorks and work on FOSS projects.",
+    "note": "Back at FEUP too, teaching computer graphics and web development for a semester.",
+    "kind": "home",
+    "cards": [
+      {
+        "title": "Mozn",
+        "subtitle": "Senior Backend Engineer",
+        "period": "2025-06 — Present",
+        "paragraphs": [
+          "Joined the Screening team building compliance and financial crime detection infrastructure.",
+          "Developed new Go distributed services to address performance and scalability limitations of the pre-existing Python monolith."
+        ],
+        "tags": [
+          "Go",
+          "gRPC",
+          "Kubernetes",
+          "Docker",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "title": "NALA",
+        "subtitle": "Lead Backend Engineer",
+        "period": "2023-06 — 2025-04",
+        "paragraphs": [
+          "On top of previous responsibilities, took on managing more cross-team initiatives.",
+          "Coordinated with CTO and team leads to align on engineering strategy."
+        ],
+        "tags": [
+          "Go",
+          "gRPC",
+          "Kafka",
+          "PostgreSQL",
+          "AWS",
+          "Terraform",
+          "Docker",
+          "Grafana"
+        ]
+      },
+      {
+        "title": "Faculty of Engineering, University of Porto",
+        "subtitle": "Teaching Assistant",
+        "period": "2022-09 — 2023-02",
+        "paragraphs": [
+          "Graduate TA for Computer Graphics and Web Development courses.",
+          "Taught for one semester only as I transitioned to focus on full-time work and family after the birth of my first child."
+        ],
+        "tags": [
+          "JavaScript",
+          "PHP",
+          "Docker",
+          "PostgreSQL",
+          "OpenGL",
+          "Laravel"
+        ]
+      },
+      {
+        "title": "ElaronWorks",
+        "subtitle": "Founder - Product Lab and Consulting",
+        "period": "2025-12 — Present",
+        "paragraphs": [
+          "Founded ElaronWorks for consulting, product exploration, and AI integration work.",
+          "Built and launched ParliAI (parliai.com), a multi-provider AI council platform for structured debates, model scoring, and decision workflows across providers including OpenAI, Anthropic, Google, and xAI.",
+          "Built and launched NomiaWeave (nomiaweave.com), an AI-assisted collaborative baby-naming application combining cultural and linguistic data with generated suggestions and insights.",
+          "Used modern AI coding agents and asset-generation workflows to rapidly prototype, integrate, and ship complete product experiments."
+        ],
+        "tags": [
+          "Go",
+          "TypeScript",
+          "React",
+          "OpenAI API",
+          "Anthropic API",
+          "Google AI",
+          "xAI",
+          "AI Agents"
+        ],
+        "links": [
+          {
+            "label": "ElaronWorks",
+            "url": "https://elaronworks.com"
+          }
+        ]
+      },
+      {
+        "title": "GitHub",
+        "subtitle": "FOSS · Shepherdr",
+        "period": "",
+        "paragraphs": [],
+        "tags": [],
+        "href": "https://github.com/luiscleto"
+      }
+    ]
+  }
+]

@@ -114,3 +114,9 @@
     padding: 2rem 4rem;
   }
 }
+
+.page-loading { padding: 40px; }
+@media (max-width: 600px) { .social-links { flex-wrap: wrap; } }
+
+.cv-link { display: inline-block; margin-top: 18px; font-size: 14px; color: #b8bdc7; text-decoration: underline; text-underline-offset: 4px; }
+.cv-link:hover { color: #fff; }
